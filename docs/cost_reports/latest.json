@@ -1,0 +1,32 @@
+{
+  "requirement": "Print hello world.",
+  "status": "completed",
+  "iterations": 1,
+  "agents": [
+    {
+      "agent_name": "pm",
+      "prompt_tokens": 300,
+      "completion_tokens": 120,
+      "estimated_cost_usd": 0.0021,
+      "tool_calls": 0,
+      "duration_ms": 0
+    },
+    {
+      "agent_name": "coder",
+      "prompt_tokens": 500,
+      "completion_tokens": 300,
+      "estimated_cost_usd": 0.00012,
+      "tool_calls": 2,
+      "duration_ms": 0
+    },
+    {
+      "agent_name": "qa",
+      "prompt_tokens": 350,
+      "completion_tokens": 150,
+      "estimated_cost_usd": 7.5e-05,
+      "tool_calls": 0,
+      "duration_ms": 0
+    }
+  ],
+  "total_estimated_cost_usd": 0.002295
+}
